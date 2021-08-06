@@ -1,3 +1,5 @@
 import { combineReducers } from "redux";
-//import  from '';
-export default combineReducers();
+
+import location from "./location/reducer";
+
+export default combineReducers({ location });

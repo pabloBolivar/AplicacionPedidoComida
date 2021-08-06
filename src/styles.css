@@ -1,4 +1,21 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#app {
   font-family: sans-serif;
   text-align: center;
+  height: 98vh;
 }
+
+.central-component {
+  height: 350px;
+  padding: 10px;
+}
+/* h: 0; c {h: 0;} */
